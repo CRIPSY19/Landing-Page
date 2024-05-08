@@ -1,8 +1,19 @@
-html{
-    font-family: roberto, sans-serif;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
-media(min-length: 576px)
+html{
+    font-family: roberto, sans-serif;
+    font-size: 14px;
+}
+
+
+
+ @media(min-length: 576px) {
+    main
+ }
 
 main{
     display: flex;
@@ -13,12 +24,52 @@ main{
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
+
+body {
+    color: blue;
+    background-color: rgb(205, 248, 255);
+}
+
+.intro {
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-weight: 800;
+        font-size: 3.75rem;
+        font-style: normal;
+        padding-bottom: 20px;
+}
+
+.tagline {
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        padding-bottom: 10px;
+}
+
+.light {
+    font-size: 1.5rem;
+}
+
 .icons-social{
    font-size: 3em; 
 }
 
 
-main > .intro{
+.icons-social i{
+    padding: 10px;
+}
+
+img {
+    width: 50px;
+}
+
+
+
+/* main > .intro{
     font-family: Reem kufi, sans-serif;
     font-size: 3.75em;
     font-weight: 600;
@@ -29,8 +80,7 @@ main > .tagline{
     font-size: 1.5rem;
     font-weight: 100;
 }
-.icons-social i{
-    padding: 10px;
+
 }
 
-.icons-social
+.icons-social */
